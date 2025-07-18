@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crest Expeditions - Luxury Travel</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #E0E0E0;
+        }
+
+        .header {
+            background-color: #000000;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #C4A668;
+        }
+
+        .logo {
+            display: flex;
+            font-size: 40px;
+            font-weight: bold;
+            color: #C4A668;
+            text-decoration: none;
+        }
+
+        .nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+            transition: color 0.4s;
+        }
+
+        .nav a:hover {
+            color: #C4A668; 
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/backgroundjet.png);
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .hero-text {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #C4A668;
+        }
+
+        .hero p {
+            font-size: 35px;
+            color: #C4A668;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+        
+       
+        .container p {
+            max-width: 800px;
+            margin: 0 auto; 
+            line-height: 1.7;
+            font-size: 18px;
+        }
+
+        .container h2 {
+            font-size: 36px;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px; 
+        }
+
+        .service-card {
+            width: 22%;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid #C4A668;
+            transition: transform 0.4s; 
+        }
+
+        .service-card img:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            margin-top: 15px;
+            color: #E0E0E0;
+        }
+
+        .content-section {
+            padding: 20px 80px;
+            margin-top: 40px;
+        }
+        
+        .content-section h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #C4A668;
+            margin-bottom: 30px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .faq-item h4 {
+            color: #C4A668;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .faq-item p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 5px;
+            border: 1px solid #C4A668;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 95%;
+            padding: 12px;
+            margin-bottom: 15px;
+            background-color: #333;
+            border: 1px solid #555;
+            color: #E0E0E0;
+            border-radius: 4px;
+            font-family: 'Georgia', serif;
+        }
+
+        .contact-form button {
+            background-color: #C4A668;
+            color: #000000;
+            padding: 15px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.4s;
+        }
+
+        .contact-form button:hover {
+            background-color: #FFFFFF;
+        }
+
+        .footer {
+            background-color: #000000;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #C4A668;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo"><img src="./images/logo.png.jpg" width="90px" alt=""></a>
+        <a href="index.html" class="logo">Crest Expeditions</a>
+        
+        <div class="nav">
+            <a href="hotels.html">Luxury Hotels</a>
+            <a href="jets.html">Private Jets</a>
+            <a href="cars.html">Prestige Cars</a>
+            <a href="helicopters.html">Helicopters</a>
+            <a href="about.html">About Us</a>
+            <a href="">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Experience <strong>YASHU WEBSITE</strong></h1>
+            <p>Travel beyond limits in style, comfort, privacy, and pure elegance.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>About Crest Expeditions</h2>
+        <p>
+            Founded on the principle of providing bespoke travel without compromise, Crest Expeditions is the ultimate purveyor of luxury journeys. We believe that travel is not just about the destination, but about the experience. Our dedicated team of experts works tirelessly behind the scenes to ensure every detail of your expedition is flawlessly executed, from securing a rare vintage car to charting a private jet to a remote island. We exist to turn your most ambitious travel dreams into reality.
+        </p>
+    </div>
+    <div class="container">
+        <h2>Our Exclusive Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <a href="hotels.html"><img src="./images/hotels.png" alt="Luxury Hotel"></a>
+                <h3>Luxury Hotels</h3>
+            </div>
+            <div class="service-card">
+                <a href="jets.html"><img src="./images/jet.png" alt="Private Jet"></a>
+                <h3>Private Jets</h3>
+            </div>
+            <div class="service-card">
+                <a href="cars.html"><img src="./images/cars.png" alt="Prestige Car"></a>
+                <h3>Prestige Cars</h3>
+            </div>
+             <div class="service-card">
+                <a href="helicopters.html"><img src="./images/helicopter.png" alt="Helicopter"></a>
+                <h3>Helicopters</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h4>How do I make a booking?</h4>
+            <p>To make a booking, please navigate to the desired service page and fill out the inquiry form. A dedicated travel concierge will contact you within 24 hours to finalize the details of your expedition.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Are your services confidential?</h4>
+            <p>Absolutely. Discretion and privacy are paramount at Crest Expeditions. All client information and travel details are handled with the strictest confidentiality.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Can you accommodate bespoke travel requests?</h4>
+            <p>Yes. We specialize in creating custom, tailor-made itineraries. Please use our contact form to detail your unique requirements, and we will craft a journey that is exclusively yours.</p>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <textarea name="message" rows="6" placeholder="Your Message or Inquiry" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Crest Expeditions. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>

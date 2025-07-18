@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Cars - Crest Expeditions</title>
+    <style>
+        /* All CSS is identical to hotels.html for consistency */
+        body { 
+        font-family: 'Georgia', serif; 
+        margin: 0; 
+        padding: 0;
+        background-color: #121212; 
+        color: #E0E0E0;
+        }
+        .header { background-color: #000000; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #C4A668; }
+        .logo { font-size: 28px; font-weight: bold; color: #C4A668; text-decoration: none; }
+        .nav a { color: #FFFFFF; text-decoration: none; margin-left: 30px; font-size: 16px; transition: color 0.4s; }
+        .nav a:hover { color: #C4A668; }
+        .service-header { padding: 5px 5px; text-align: center; background-color: #1a1a1a; }
+        .service-header h1 { font-size: 42px; color: #C4A668; }
+        .container { padding: 20px 80px; }
+        .service-image { width: 100%; height: 450px; object-fit: cover; border-radius: 5px; }
+        .details-section { margin-top: 30px; }
+        .details-section h2 { color: #C4A668; border-bottom: 1px solid #C4A668; padding-bottom: 10px; margin-bottom: 20px; }
+        .details-section p, .details-section li { font-size: 16px; line-height: 1.6; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #333333; }
+        th { color: #C4A668; }
+        .booking-form { margin-top: 30px; background-color: #1a1a1a; padding: 30px; border-radius: 5px; }
+        .booking-form input, .booking-form select { width: 98%; padding: 12px; margin-bottom: 15px; background-color: #333; border: 1px solid #555; color: #E0E0E0; border-radius: 4px; }
+        .booking-form button { background-color: #C4A668; color: #000000; padding: 15px 25px; border: none; cursor: pointer; font-size: 16px; font-weight: bold; border-radius: 4px; transition: background-color 0.4s; }
+        .booking-form button:hover { background-color: #FFFFFF; }
+        .footer { background-color: #000000; color: #FFFFFF; text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #C4A668; }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo">Crest Expeditions</a>
+        <div class="nav">
+            <a href="hotels.html">Luxury Hotels</a>
+            <a href="jets.html">Private Jets</a>
+            <a href="cars.html">Prestige Cars</a>
+            <a href="helicopters.html">Helicopters</a>
+        </div>
+    </div>
+
+    <div class="service-header">
+        <h1>Prestige Car Rentals</h1>
+    </div>
+
+    <div class="container">
+        <img class="service-image" src="./images/cars.png" alt="Luxury Sports Car">
+        <div class="details-section">
+            <h2>About Our Car Fleet</h2>
+            <p>Arrive in style with our fleet of the world's most sought-after automobiles. From high-performance supercars to stately luxury sedans, each vehicle is maintained to perfection and delivered to you wherever you are. A personal chauffeur service is available upon request.</p>
+        </div>
+
+        <div class="details-section">
+            <h2>Available in</h2>
+            <ul>
+                <li>Monaco</li>
+                <li>Beverly Hills</li>
+                <li>London</li>
+                <li>Miami</li>
+            </ul>
+        </div>
+        
+        <div class="details-section">
+            <h2>Rental Pricing</h2>
+            <p>Daily rental rates for our most requested models.</p>
+            <table>
+                <tr>
+                    <th>Car Model</th>
+                    <th>Location</th>
+                    <th>Price Per Day (USD)</th>
+                </tr>
+                <tr>
+                    <td>Rolls-Royce Phantom</td>
+                    <td>London</td>
+                    <td>$3,500</td>
+                </tr>
+                 <tr>
+                    <td>Ferrari SF90 Stradale</td>
+                    <td>Monaco</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>Lamborghini Aventador</td>
+                    <td>Miami</td>
+                    <td>$4,500</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="details-section booking-form">
+            <h2>Reserve a Vehicle</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="destination">Pickup Location:</label>
+                <select id="destination" name="destination">
+                    <option value="monaco">Monaco</option>
+                    <option value="beverlyhills">Beverly Hills</option>
+                    <option value="london">London</option>
+                    <option value="miami">Miami</option>
+                </select>
+
+                <label for="date">Rental Start Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Crest Expeditions. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>

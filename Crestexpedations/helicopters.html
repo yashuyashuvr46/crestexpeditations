@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helicopters - Crest Expeditions</title>
+    <style>
+        /* All CSS is identical to hotels.html for consistency */
+        body { font-family: 'Georgia', serif; margin: 0; padding: 0; background-color: #121212; color: #E0E0E0; }
+        .header { background-color: #000000; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #C4A668; }
+        .logo { font-size: 28px; font-weight: bold; color: #C4A668; text-decoration: none; }
+        .nav a { color: #FFFFFF; text-decoration: none; margin-left: 30px; font-size: 16px; transition: color 0.4s; }
+        .nav a:hover { color: #C4A668; }
+        .service-header { padding: 5px 5px; text-align: center; background-color: #1a1a1a; }
+        .service-header h1 { font-size: 42px; color: #C4A668; }
+        .container { padding: 20px 80px; }
+        .service-image { width: 100%; height: 450px; object-fit: cover; border-radius: 5px; }
+        .details-section { margin-top: 30px; }
+        .details-section h2 { color: #C4A668; border-bottom: 1px solid #C4A668; padding-bottom: 10px; margin-bottom: 20px; }
+        .details-section p, .details-section li { font-size: 16px; line-height: 1.6; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #333333; }
+        th { color: #C4A668; }
+        .booking-form { margin-top: 30px; background-color: #1a1a1a; padding: 30px; border-radius: 5px; }
+        .booking-form input, .booking-form select { width: 98%; padding: 12px; margin-bottom: 15px; background-color: #333; border: 1px solid #555; color: #E0E0E0; border-radius: 4px; }
+        .booking-form button { background-color: #C4A668; color: #000000; padding: 15px 25px; border: none; cursor: pointer; font-size: 16px; font-weight: bold; border-radius: 4px; transition: background-color 0.4s; }
+        .booking-form button:hover { background-color: #FFFFFF; }
+        .footer { background-color: #000000; color: #FFFFFF; text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #C4A668; }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo">Crest Expeditions</a>
+        <div class="nav">
+            <a href="hotels.html">Luxury Hotels</a>
+            <a href="jets.html">Private Jets</a>
+            <a href="cars.html">Prestige Cars</a>
+            <a href="helicopters.html">Helicopters</a>
+        </div>
+    </div>
+
+    <div class="service-header">
+        <h1>Helicopter Transfers & Tours</h1>
+    </div>
+
+    <div class="container">
+        <img class="service-image" src="./images/helicopter.png" alt="Helicopter flying over a city">
+        
+        <div class="details-section">
+            <h2>About Our Helicopter Service</h2>
+            <p>Bypass traffic and enjoy stunning aerial views with our private helicopter charters. Ideal for airport transfers, inter-city travel, or breathtaking scenic tours. Our experienced pilots and luxury aircraft ensure a safe, swift, and unforgettable journey.</p>
+        </div>
+
+        <div class="details-section">
+            <h2>Popular Services</h2>
+            <ul>
+                <li>Airport to City Center Transfers (New York, London, Tokyo)</li>
+                <li>Scenic Tour of the Grand Canyon</li>
+                <li>Monaco Grand Prix Views</li>
+                <li>Heli-Skiing in the Swiss Alps</li>
+            </ul>
+        </div>
+        
+        <div class="details-section">
+            <h2>Charter Pricing</h2>
+            <p>Helicopter charters are priced by the hour. Below are some examples.</p>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Helicopter Model</th>
+                    <th>Estimated Price (USD)</th>
+                </tr>
+                <tr>
+                    <td>JFK to Manhattan Transfer</td>
+                    <td>Bell 407</td>
+                    <td>$3,000</td>
+                </tr>
+                 <tr>
+                    <td>Grand Canyon Tour (1 hr)</td>
+                    <td>Airbus H130</td>
+                    <td>$5,500</td>
+                </tr>
+                <tr>
+                    <td>Nice to Monaco Transfer</td>
+                    <td>Agusta AW139</td>
+                    <td>$7,000</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="details-section booking-form">
+            <h2>Request a Flight</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="destination">Service Required:</label>
+                <input type="text" id="destination" name="destination" placeholder="e.g., Grand Canyon Tour">
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Crest Expeditions. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
